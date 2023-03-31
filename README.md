@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Découvrez mon projet [Projet 6](https://meidhi14.github.io/kasa/).
+Découvrez mon projet [Projet 6 kasa](https://meidhi14.github.io/kasa/).
 
 ## Available Scripts
 
