@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Découvrez mon projet [Projet 6](https://meidhi14.github.io/kasa/).
 
 ## Available Scripts
 
