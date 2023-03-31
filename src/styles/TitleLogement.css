@@ -1,0 +1,10 @@
+.titleTitleLogement {
+  font-size: 36px;
+  line-height: 51px;
+}
+@media screen and (max-width: 500px) {
+  .titleTitleLogement {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

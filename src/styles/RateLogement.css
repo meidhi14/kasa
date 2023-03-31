@@ -1,0 +1,10 @@
+.containerRateLogement {
+  margin-top: 33px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ratePleineRateLogement,
+.rateVideRateLogement {
+  margin-left: 7px;
+}

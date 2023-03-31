@@ -1,0 +1,32 @@
+.banner-a-propos {
+  position: relative;
+  margin: 40px auto;
+  width: 90%;
+  height: 223px;
+  background: center no-repeat url(../assets/images/imgBannerAPropos.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.banner-a-propos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  mix-blend-mode: multiply;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .banner-a-propos {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.annoncesContainer {
+  width: calc(90% - 100px);
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 340px);
+  grid-gap: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .annoncesContainer {
+    background-color: white;
+    padding: 0;
+    grid-gap: 20px;
+  }
+  .annoncesContainer a {
+    display: flex;
+    justify-content: center;
+  }
+}

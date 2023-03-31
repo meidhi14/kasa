@@ -1,0 +1,90 @@
+.containerFicheLogement {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ficheLogementHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.tagsFicheLogement {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.ficheLogementContenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleCollapseFicheLogement {
+  width: 45%;
+}
+
+.descriptionFicheLogement,
+.equipementsFicheLogement {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  list-style: none;
+}
+
+.descriptionFicheLogement {
+  padding: 40px 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .ficheLogementHeader {
+    display: block;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .ficheLogementHeaderDroite {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .containerRateLogement {
+    margin-top: 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerRateLogement img {
+    width: 13px;
+    height: 13px;
+  }
+
+  .ficheLogementContenu {
+    display: block;
+  }
+  .titleCollapseFicheLogement {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .titleCollapseFicheLogement h1 {
+    font-size: 13px;
+  }
+
+  .descriptionFicheLogement,
+  .equipementsFicheLogement {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .descriptionFicheLogement {
+    padding: 20px 10px;
+    height: 140px;
+  }
+}

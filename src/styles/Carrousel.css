@@ -1,0 +1,67 @@
+.carrouselContainer {
+  position: relative;
+  height: 415px;
+  border-radius: 25px;
+}
+
+.carrouselImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.carrouselFlecheGauche {
+  position: absolute;
+  top: 50%;
+  left: 23px;
+  transform: translateY(-50%);
+}
+
+.carrouselFlecheDroite {
+  position: absolute;
+  top: 50%;
+  right: 23px;
+  transform: translateY(-50%);
+}
+
+.carrouselFlecheDroite:hover,
+.carrouselFlecheGauche:hover {
+  cursor: pointer;
+}
+
+.carrouselNumerotation {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carrouselNumerotation p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25.67px;
+}
+
+@media screen and (max-width: 500px) {
+  .carrouselContainer {
+    width: 335px;
+    height: 255px;
+    margin: 0 auto;
+  }
+  .imgCarrouselFlecheGauche,
+  .imgCarrouselFlecheDroite {
+    width: 12px;
+    height: 20px;
+  }
+
+  .carrouselFlecheGauche {
+    left: 6px;
+  }
+  .carrouselFlecheDroite {
+    right: 6px;
+  }
+}

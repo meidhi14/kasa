@@ -1,0 +1,30 @@
+.containerProfilLogement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paraProfilLogement {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: right;
+}
+
+.imgProfilLogement {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .imgProfilLogement {
+    width: 32px;
+    height: 32px;
+  }
+
+  .paraProfilLogement {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: right;
+  }
+}
