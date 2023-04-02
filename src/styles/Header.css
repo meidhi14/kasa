@@ -39,4 +39,8 @@
     line-height: 17px;
     text-transform: uppercase;
   }
+
+  .lienHeaderAPropos {
+    margin-left: 10px;
+  }
 }
